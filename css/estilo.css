@@ -76,6 +76,31 @@ h1{
 }
 
 
+#CarrucelGaleria{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.cantidadCompra{
+    width: 100%;
+}
+
+#botonesGaleria{
+    width: 100%;
+}
+
+#textCompra{
+    padding: 20px;
+    text-align: justify;
+}
+
+#CompraCard{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
 @media screen and (max-width:890px){
     #imgCarruzelindex img{
         height:200px;
