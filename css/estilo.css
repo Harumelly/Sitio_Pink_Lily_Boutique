@@ -1,0 +1,88 @@
+body,nav,div{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#AcercaDe{
+    margin-bottom: 20px;
+}
+
+h1{
+    background-color: #F39AA5;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px
+}
+
+#Titulo{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#Titulo:hover{
+    color: beige;
+}
+
+#Navbonis{
+    color: #F39AA5;
+    font-weight: bold;
+}
+#Navbonis:hover{
+    color: #D94D7B;
+    text-decoration: underline;
+    border-radius: 10px;
+    text-shadow: 2px 0px 15px #202020;
+}
+
+
+#MiMain{
+    background-color: #fcfcfc;
+    margin-top: 10px;
+    border: 2px solid #a1a1a1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#imgCarruzelindex img{
+    height:500px
+}
+
+#textitoCard{
+    font-size: 20px;
+}
+#CardtituloIndex{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.fotoFea{
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.fotoFea img{
+    border-radius: 50%;
+    border: 2px solid #EE6594;
+}
+
+#infoMeli{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#CardInfo{
+    background-color: #D94D7B;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width:890px){
+    #imgCarruzelindex img{
+        height:200px;
+    }
+
+    .fotoFea img{
+        width: 80%;
+    }
+
+}
